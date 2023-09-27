@@ -1,0 +1,40 @@
+#maquina_2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#mas_texto {
+  display: none;
+  padding: 1rem;
+  border-radius: 20px;
+  padding-bottom: 150px;
+}
+.fotos {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+#btn_seguir {
+  display: none;
+}
+
+#foto_1,
+#foto_2 {
+  margin-right: 2rem;
+  float: left;
+  border-radius: 20px;
+}
+#foto_3,
+#foto_4 {
+  float: right;
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  #foto_1,
+  #foto_2 {
+    width: 150px;
+  }
+}
